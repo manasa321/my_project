@@ -20,21 +20,14 @@ height: 100%;
     text-align: left;
 }
 
-.enter{
+.enter {
     color: blue;
-    font-weight: Bolder;
+    font-weight: bolder;
     text-align: left;
-}
-
-/* Style for when the button is hovered over */
-button:hover {
-    background-color: blue; /* Darker grey when hovered */
-    color: white; /* White text when hovered */
 }
 
 .square-box {
     align: center;
-    display: flex;
     width: 300px; /* Adjust the width to your desired size */
     height: 300px; /* Equal to width to create a square */
     border: 2px solid #000; /* Border for the square box */
@@ -53,7 +46,7 @@ button:hover {
 }
 
 button {
-    color: white;
+    color: red;
     text-align: center; /* Use text-align instead of align for centering text */
     padding: 5px 5px;
     cursor: pointer;
@@ -61,4 +54,14 @@ button {
     border: none; /* Adding a border none to remove default border */
     display: inline-block; /* Ensures it behaves as an inline-block element */
     text-decoration: none; /* Remove default underline on links */
+}
+
+button:hover {
+    background-color: blue; /* Darker grey when hovered */
+    color: white; /* White text when hovered */
+}
+
+.hidden {
+    color: blue;
+    display: none;
 }
