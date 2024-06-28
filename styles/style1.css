@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+html, body {
+/* display: flex; */
+margin: 10px;
+padding: 0px;
+justify-content: center;
+height: 100%;
+/* background-color: rgb(48, 47, 47); */
+}
+
+.welcome {
+    color: blue;
+    font-weight: 600;
+    text-align: center;
+}
+
+.bio {
+    color: red;
+    text-align: left;
+}
+
+.enter{
+    color: blue;
+    font-weight: Bolder;
+    text-align: left;
+}
+
+/* Style for when the button is hovered over */
+button:hover {
+    background-color: blue; /* Darker grey when hovered */
+    color: white; /* White text when hovered */
+}
+
+.square-box {
+    align: center;
+    display: flex;
+    width: 300px; /* Adjust the width to your desired size */
+    height: 300px; /* Equal to width to create a square */
+    border: 2px solid #000; /* Border for the square box */
+    display: flex; /* Use flexbox for flexible layout */
+    flex-direction: column;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    background-color: #D3D3D3;
+}
+
+.container {
+    border-width:2px;
+    background-color: blue; /* Background color for containers */
+    text-align: center; /* Center text or content inside each container */
+    margin: 5px; /* Margin between containers */
+}
+
+button {
+    color: white;
+    text-align: center; /* Use text-align instead of align for centering text */
+    padding: 5px 5px;
+    cursor: pointer;
+    background-color: grey;
+    border: none; /* Adding a border none to remove default border */
+    display: inline-block; /* Ensures it behaves as an inline-block element */
+    text-decoration: none; /* Remove default underline on links */
+}
