@@ -21,8 +21,8 @@ function myFunction() {
     }
 
     if(fail==0){
+        document.getElementById("sec1").style.display='block';
         html_1 = "<h style='color:black'>Processing request...</h>";
         document.getElementById("Processing").innerHTML = <br>+html_1;
-        document.getElementById("sec1").style.display='block';
     }
 }
