@@ -21,8 +21,12 @@ function myFunction() {
     }
 
     if(fail==0){
+        document.getElementById("auth").style.display='none';
         document.getElementById("sec1").style.display='block';
-        html_1 = "<h style='color:black'>Processing request...</h>";
-        document.getElementById("Processing").innerHTML = <br>+html_1;
+        setTimeOut(function(){
+            html_1 = "<h style='color:black'>Processing request...</h>";
+            document.getElementById("submit").innerHTML = html_1;
+       }, 1000)
+        //document.getElementById("Processing").classList.remove('hidden');
     }
 }
